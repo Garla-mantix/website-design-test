@@ -14,7 +14,6 @@
     }
     
     &__hero-section {
-    
 
         &__text {
             margin-top: 16em;
@@ -105,9 +104,24 @@
         border: none;
         width: 153px;
         height: 63px;
+
+        &:hover {
+            background-color: orange;
+            cursor: pointer;
+        }
     }
 }
 
 label[for="search"] {
-    display:none;
+    display: none;
+}
+
+.input-field {
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 6px;
+}
+
+.input-field:focus {
+    box-shadow: 0px 2px 0px orange
 }

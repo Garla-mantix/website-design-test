@@ -17,7 +17,6 @@
         line-height: 26px;
         letter-spacing: 2.4px;
         margin-right: 2em;
-
     }
 
     &__container {
@@ -37,16 +36,12 @@
             color: #ffffff;
 
             &:hover {
-                color: red
+                color: rgb(255, 166, 0)
             }
         }
     }
 }
 
-.input-field {
-    
- }
- 
  .input-field:focus {
      outline: none;
  }

@@ -3,7 +3,6 @@
     padding: 5em;
 
     &__container {
-        background-image: url(../images/howitworks-wave.svg);
         width: 100%;
         background-repeat: no-repeat;
         display: flex;
@@ -14,6 +13,7 @@
         font-style: normal;
         line-height: 26px;
         font-size: 36px;
+        position: relative;
     
     }
 
@@ -27,6 +27,7 @@
 
         &-icon {
             color: #5474FD;
+            z-index: 2;
         }
     }
 
@@ -44,7 +45,6 @@
 
     &__book {
         margin-right: 10%;
-        
 
         &-text {
             color: #ffff;
@@ -52,10 +52,18 @@
         }
 
         &-icon {
-            color: #00A2FF
+            color: #00A2FF;
         }
     }
+}
 
+.wave {
+    position: absolute;
+    z-index: 0;
+}
 
-
+.fa-solid,
+.fa-regular {
+    z-index: 2;
+    position: relative;
 }
