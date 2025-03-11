@@ -1,0 +1,61 @@
+.howitworks-section {
+    background-color: #333333;
+    padding: 5em;
+
+    &__container {
+        background-image: url(../images/howitworks-wave.svg);
+        width: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: space-evenly;
+        gap: 3em;
+        text-align: center;
+        font-family: fonts.$secondary-font;
+        font-style: normal;
+        line-height: 26px;
+        font-size: 36px;
+    
+    }
+
+    &__search {
+        margin-left: 10%;
+
+        &-text {
+            color: #ffff;
+            margin-top: 1em;
+        }
+
+        &-icon {
+            color: #5474FD;
+        }
+    }
+
+    &__select {
+
+        &-text {
+            color: #ffff;
+            margin-top: 1em;
+        }
+
+        &-icon {
+            color: #FF6363;
+        }
+    }
+
+    &__book {
+        margin-right: 10%;
+        
+
+        &-text {
+            color: #ffff;
+            margin-top: 1em;
+        }
+
+        &-icon {
+            color: #00A2FF
+        }
+    }
+
+
+
+}
