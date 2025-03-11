@@ -1,6 +1,6 @@
+@media screen and (max-width: 6000px) {
 .explore-section {
     
-
     &__background {
         min-height: 685px;
         max-width: 1770px;
@@ -43,9 +43,7 @@
         }
 
         &-button {
-            margin-top: 2em;
-            
-           
+            margin-top: 2em; 
             align-content: center;
             text-align: center;
         }
@@ -59,7 +57,6 @@
         margin-right: 10%;
         gap: 1em;
         
-
         &-firstimg {
             margin-left: 2em;
         }
@@ -84,5 +81,44 @@
     border: none;
     height: 63px;
     width: 228px;
+}
+}
+
+@media screen and (max-width: 900px) {
+    .explore-section {
+    
+        &__background {
+            flex-direction: column;
+        }
+
+        &__left {
+            width: 100%;
+            align-items: center;
+            margin-left: 0px;
+            margin-bottom: 0px;
+
+            &-text {
+                margin-right: 5em;
+                margin-left: 5em;
+            }
+        }
+
+        &__right {
+            width: 100%;
+            margin-top: 2em;
+            margin-right: 0px;
+            gap: 2em;
+            margin-bottom: 2em;
+            align-items: center;
+
+            &-firstimg {
+                margin-left: 0em;
+            }
+    
+            &-secondimg {
+                margin-left: 0em;
+            }
+        }
+    }
 }
 
