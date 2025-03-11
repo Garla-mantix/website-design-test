@@ -1,1 +1,1 @@
-label[for=search]{display:none}
+*{margin:0;padding:0;box-sizing:border-box}body{border:solid red}.header-main{height:100vh;background-image:url(../images/hero-background.png);background-size:cover;background-position:top;background-attachment:scroll;max-width:1773px;width:100%}label[for=search]{display:none}
