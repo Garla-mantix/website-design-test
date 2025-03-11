@@ -1,4 +1,8 @@
-body {
+.header-main {
+    display: flex;
+    flex-direction: column;
+
+    &__background {
     min-height: 820px;
     max-width: 1770px;
     width: 100%;
@@ -7,11 +11,7 @@ body {
     background-size: cover;
     background-position: top;
     background-attachment: scroll;
-}
-
-.header-main {
-    display: flex;
-    flex-direction: column;
+    }
     
     &__hero-section {
     
@@ -109,14 +109,8 @@ body {
         position: relative;
         border: none;
     }
-
-    
-
 }
 
-
-
-label[for="search"]
-{
+label[for="search"] {
     display:none;
 }
