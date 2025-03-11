@@ -1,0 +1,29 @@
+.booknow-section {
+
+    &__background-1 {
+        min-height: 700px;
+        max-width: 1770px;
+        width: 100%;
+        background-image: url(../images/bookmadrid-background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        background-attachment: scroll;
+        display: flex;
+        gap: 4em;
+    }
+
+    &__background-2 {
+        min-height: 700px;
+        max-width: 1770px;
+        width: 100%;
+        background-image: url(../images/bookmadrid2-background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        background-attachment: scroll;
+        display: flex;
+        gap: 4em;
+    }
+
+}
