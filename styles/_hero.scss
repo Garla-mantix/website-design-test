@@ -1,26 +1,118 @@
 body {
-    border: solid red;
-}
-
-.header-main {
-    height: 100vh;
+    min-height: 820px;
+    max-width: 1770px;
+    width: 100%;
     background-image: url(../images/hero-background.png);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
     background-attachment: scroll;
-    max-width: 1773px;
-    width: 100%;
-  
+}
 
- 
+.header-main {
+    display: flex;
+    flex-direction: column;
+    
+    &__hero-section {
+    
+
+        &__text {
+            margin-top: 16em;
+            margin-bottom: 5em;
+            font-family: fonts.$main-font;
+            justify-items: center;
+
+            &-name {
+                color: #ffffff;
+                font-style: bold;
+                font-size: 48px;
+                line-height: 26px;
+                letter-spacing: 4.8px;
+                margin-bottom: 0.3em;
+            }
+
+            &-slogan {
+                color: #ffffff;
+                font-style: normal;
+                font-size: 22px;
+                line-height: 26px;
+                letter-spacing: 6.82px;
+                font-weight: 350;
+            }
+        }
+
+        &__search {
+            display: flex;
+            justify-content: center;
+            position: relative;
+            margin-bottom: 7em;
+
+            &-form {
+                max-width: 653px;
+                width: 100%;
+                background-color: #ffffff;
+                padding: 0.2em;
+
+                &__container {
+                    display: flex;
+                    background-color: #5474FD;
+                }
+
+                &__button {
+                    display: flex;
+
+                    &-icon {
+                        display: flex;
+                        align-items: center;
+                        margin-right: 1em;
+                        color: #ffffff;
+                    }
+                }
+            }
+        }
+
+        &__scroll {
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.2em;
+            margin-bottom: 6.8em;
+
+            &-text {
+                font-family: fonts.$main-font;
+                font-style: normal;
+                font-size: 14px;
+                line-height: 26px;
+                letter-spacing: 2.8px;
+            }
+        }
+    }
+
+    #search {
+        max-width: 653px;
+        width: 100%;
+        height: 63px;
+        border: none;
+    }
+
+    .btn__form {
+        background-color: #5474FD;
+        color: #ffffff;
+        font-family: fonts.$secondary-font;
+        font-style: normal;
+        font-size: 100;
+        letter-spacing: 1.4px;
+        line-height: 26px;
+        font-size: 14px;
+        padding: 1em;
+        position: relative;
+        border: none;
+    }
+
     
 
 }
-
-
-
-
-
 
 
 
